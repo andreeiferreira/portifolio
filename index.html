@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andreei Ferreira - Desenvolvedor Full Stack</title>
+  <link rel="stylesheet" href="/style.css">
+
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+        <b>
+          <h1>Andreei Ferreira</h1>
+        </b>
+      <ul>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#habilidades">Skills</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <div class="text">
+      <b><h2>Olá, meu nome é Andreei Ferreira 
+        e sou Desenvolvedor!</h2></b>
+      <p>Tenho 20 anos e moro em Salvador-Ba. Atualmente estudo Analise e Desenvolvimento de Sistemas. </p>
+      </b><div class="socials">
+        <b><a href="https://github.com/andreeiferreira">Github</a></b>
+        <b><a href="https://www.linkedin.com/in/andr%C3%AAei-ferreira/">LinkedIn</a></b>
+        <b><a href="https://www.instagram.com/andreeipriv/">Instagram</a></b>
+      </div>
+    </div>
+    <div class="profile-pic">
+      <img src="minhafoto1.jpg" alt="">
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <h2>Resumo</h2>
+    <p>Aplicado na área do Front-end e atualmente estudando e encarando os desafios de Back-End. Hoje estou
+
+      Graduando em Análise e Desenvolvimento de Sistemas (último periodo) na Universidade Salvador (UNIFACS).
+       Sou fissurado por tirar ideias do papel através de códigos, propósitos, academia, empreendimento.</p>
+  </section>
+
+  <section id="habilidades" class="habilidades">
+    <h2>Habilidades</h2>
+    <div class="skills">
+      <div>HTML5</div>
+      <div>JavaScript</div>
+      <div>CSS</div>
+      <div>Python</div>
+      <div>SQL</div>
+      <div>MongoDB</div>
+      <div>JWT</div>
+    </div>
+  </section>
+
+  <section id="hobbies" class="hobbies">
+    <h2>Hobbies</h2>
+    <div class="hobby-list">
+       
+           <div>Viajar</div>
+           <div>Treinar</div>
+           <div>Ler livros</div>
+           <div>Jogar</div>
+      
+      </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <form id="contact-form" method="POST" action="/contato">
+      <input type="text" name="nome" placeholder="Andreei Ferreira" required>
+      <input type="email" name="email" placeholder="andreidei506@gmail.com" required>
+      <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+    </form>
+    
+    <p id="status-msg"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Andreei Ferreira</p>
+  </footer>
+</body>
+</html>
